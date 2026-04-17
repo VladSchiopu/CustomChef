@@ -12,6 +12,8 @@ mvn clean install
 
 mvn spring-boot:run
 
+Open a browser tab and type this URL for the Swagger: http://localhost:8091/swagger-ui/index.html#/
+
 ## Run the Frontend
 
 npm run generate-api
