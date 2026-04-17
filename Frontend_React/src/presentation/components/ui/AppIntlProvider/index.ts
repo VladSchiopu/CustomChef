@@ -1,0 +1,1 @@
+export { AppIntlProvider } from "./AppIntlProvider";

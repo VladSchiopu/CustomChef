@@ -1,0 +1,49 @@
+$white: #fff;
+$mostly-white: #f9f9f9;
+$black: #1c1c1c;
+$very-light-gray: #E0E0E0;
+$grayish-blue: #CBCBD1;
+$light-grayish-blue: #e0e0e3;
+$gray: #A9A9A9;
+$dark-gray: #777777;
+$blue: #007bff;
+$lime: #8BB611;
+$red: #D90327;
+$bright-orange: #EFAC2E;
+
+$gradientBlue: linear-gradient( 
+    to bottom right, 
+    rgba(85, 125, 137, 1) 0%,
+    rgba(85, 105, 137, 1) 100%
+);
+
+$lightGradientBlue: linear-gradient( 
+    to bottom right, 
+    rgba(0, 170, 255, 1) 0%,
+    rgba(0, 130, 255, 1) 100%
+);
+
+$gradientRed: linear-gradient( 
+    to bottom right, 
+    rgb(198, 54, 121) 0%,
+    rgb(118, 9, 22, 1) 100%
+);
+
+$lightGradientRed: linear-gradient( 
+    to bottom right, 
+    rgba(255, 70, 157, 1) 0%,
+    rgba(168, 11, 29, 1) 100%
+);
+
+$gradientYellow: linear-gradient( 
+    to bottom right, 
+    rgba(224, 200, 41, 1) 0%,
+    rgba(151, 106, 8, 1) 100%
+
+);
+
+$lightGradientYellow: linear-gradient( 
+    to bottom right, 
+    rgba(250, 223, 46, 1) 0%,
+    rgba(236, 164, 10, 1) 100%
+);

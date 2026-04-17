@@ -1,0 +1,37 @@
+@use "../../../assets/styles/abstracts" as *;
+
+.navbar__language__selector {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  justify-content: end;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  & .navbar__language__selector__icon {
+    aspect-ratio: 1 / 1;
+    color: $dark-gray;
+    width: 1.4rem;
+  }
+}
+
+.language__selector__items {
+  list-style-type: none;
+  display: contents;
+
+  & .language__selector__item {
+    padding: .5rem 1rem;
+    transition: background-color .2s ease;
+
+    &.active {
+      font-family: $font-bold-sans-serif;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: $mostly-white;
+    }
+  }
+}

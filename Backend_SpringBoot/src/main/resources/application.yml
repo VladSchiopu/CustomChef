@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: project
+  datasource:
+    url: jdbc:postgresql://localhost:5432/proiect_TW
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        default_schema: project
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
+        ddl-auto: none
+    open-in-view: false
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    validate-on-migrate: false
+    table: project_schema_version
+    baseline-version: 0
+    default-schema: project
+    create-schemas: true
+    clean-disabled: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: "20cb426db456aa"
+    password: "fa23aab63395c7"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+vars:
+  security:
+    enable: true
+
+server:
+  port: 8091
+
+token:
+  ttl: 3600000
+  secret: "https://www.youtube.com/watch?v=VBUMYOYJISc"
+
+admin:
+  username: admin
+  email: admin@admin.com
+  password: admin
+
+
+

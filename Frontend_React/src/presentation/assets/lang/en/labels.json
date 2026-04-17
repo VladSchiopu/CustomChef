@@ -1,0 +1,11 @@
+{
+    "labels.itemsPerPage": "Items per page",
+    "labels.paginationLabelNormal": "{from}-{to} of {count} on page {page}",
+    "labels.paginationLabelOverflow": "{from}-{to} of more than {to} on page {page}",
+    "labels.yes": "Yes",
+    "labels.no": "No",
+    "labels.actions": "Actions",
+    "labels.addUser": "Add user",
+    "labels.addBook": "Add book",
+    "labels.addUserFile": "Add file"
+}

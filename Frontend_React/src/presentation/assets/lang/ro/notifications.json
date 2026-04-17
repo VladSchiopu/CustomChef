@@ -1,0 +1,16 @@
+{
+    "notifications.messages.authenticationSuccess": "V-ati autentificat cu succes!",
+    "notifications.errors.sessionExpired": "Sesiunea a expirat, vă rugăm să vă conectați din nou!",
+    "notifications.errors.unknownHappened": "A apărut o eroare necunoscută!",
+    "notifications.errors.networkError": "A apărut o eroare de rețea, vă rugăm să vă verificați conexiunea la internet!",
+    "notifications.errors.errorMessage": "Eroare: {code}",
+    "notifications.errors.cannotAdd": "Nu se pot adăuga date!",
+    "notifications.errors.cannotDelete": "Nu se pot șterge datele!",
+    "notifications.errors.cannotUpdate": "Nu se pot actualiza datele!",
+    "notifications.errors.entityNotFound": "Entitatea nu a fost găsită!",
+    "notifications.errors.mailSendFailed": "E-mailul nu a putut fi trimis!",
+    "notifications.errors.physicalFileNotFound": "Fișierul nu a fost găsit!",
+    "notifications.errors.technicalError": "A apărut o eroare tehnică, vă rugăm să contactați asistența!",
+    "notifications.errors.userAlreadyExists": "Utilizatorul există deja!",
+    "notifications.errors.wrongPassword": "Ați introdus o parolă greșită!"
+}

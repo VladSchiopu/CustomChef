@@ -1,0 +1,16 @@
+{
+    "notifications.messages.authenticationSuccess": "You logged in successfully!",
+    "notifications.errors.sessionExpired": "The session has expired, please login again!",
+    "notifications.errors.unknownHappened": "An unknown error occurred!",
+    "notifications.errors.networkError": "A network error occurred, please verify your internet connection!",
+    "notifications.errors.errorMessage": "Error: {code}",
+    "notifications.errors.cannotAdd": "Cannot add data!",
+    "notifications.errors.cannotDelete": "Cannot delete data!",
+    "notifications.errors.cannotUpdate": "Cannot update data!",
+    "notifications.errors.entityNotFound": "The entity was not found!",
+    "notifications.errors.mailSendFailed": "The mail couldn't be send!",
+    "notifications.errors.physicalFileNotFound": "The file was not found!",
+    "notifications.errors.technicalError": "A technical error occurred, please contact the support!",
+    "notifications.errors.userAlreadyExists": "The user already exists!",
+    "notifications.errors.wrongPassword": "You entered the wrong password!"
+}

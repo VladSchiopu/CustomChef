@@ -1,0 +1,29 @@
+@use "../../../assets/styles/abstracts" as *;
+.content__card__container {
+    border-radius: $border-radius;
+    border: $border;
+    background-color: $white;
+    box-shadow: $box-shadow;
+    padding: $whitespace-xs;
+    width: 100%;
+    overflow: hidden;
+    &>h3 {
+        padding-bottom: $whitespace-xs;
+    }
+}
+
+@media screen and (min-width: $screensize-sm) {
+    .content__card__container {
+        border-radius: $border-radius;
+        padding: $whitespace-md;
+        width: 100%;
+        &>h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            padding-bottom: $whitespace-sm;
+        }
+    }
+}
