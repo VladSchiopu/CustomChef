@@ -7,7 +7,7 @@ services:
       - 5432:5432
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_DB: proiect_TW
       POSTGRES_PASSWORD: postgres
     volumes:
       - mobylab-app-db-vol:/var/lib/postgresql/data
